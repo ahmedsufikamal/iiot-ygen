@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/sufi-mac-pro/Documents/2.%20Other%20Drive/0000.%20WebDesign/iiot-ygen/app/api/session/route.ts"],"sourcesContent":["import { cookies } from 'next/headers'; export const runtime='nodejs'; export const dynamic='force-dynamic'; export async function GET(){ const c=cookies(); return Response.json({ tenant:c.get('tenant')?.value||null, role:c.get('role')?.value||'user' }); }\n"],"names":[],"mappings":";;;;;;;;AAAA;;AAA+C,MAAM,UAAQ;AAAiB,MAAM,UAAQ;AAAwB,eAAe;IAAO,MAAM,IAAE,IAAA,4IAAO;IAAI,OAAO,SAAS,IAAI,CAAC;QAAE,QAAO,EAAE,GAAG,CAAC,WAAW,SAAO;QAAM,MAAK,EAAE,GAAG,CAAC,SAAS,SAAO;IAAO;AAAI","debugId":null}}]
+}

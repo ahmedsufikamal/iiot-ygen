@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/sufi-mac-pro/Documents/2.%20Other%20Drive/0000.%20WebDesign/iiot-ygen/app/page.tsx"],"sourcesContent":["import { redirect } from 'next/navigation'; export default function Home(){ redirect('/login'); }\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAA2D,SAAS;IAAQ,IAAA,iMAAQ,EAAC;AAAW","debugId":null}}]
+}

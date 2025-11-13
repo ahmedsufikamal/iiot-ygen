@@ -1,0 +1,1 @@
+import { cookies } from 'next/headers'; export const runtime='nodejs'; export const dynamic='force-dynamic'; export async function GET(){ const c=cookies(); return Response.json({ tenant:c.get('tenant')?.value||null, role:c.get('role')?.value||'user' }); }

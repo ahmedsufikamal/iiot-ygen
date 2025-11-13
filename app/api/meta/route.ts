@@ -1,0 +1,1 @@
+import { store } from '@/lib/store'; export const runtime='nodejs'; export const dynamic='force-dynamic'; export async function GET(){ const devices=store.listDevices(); return Response.json({ devices }); }

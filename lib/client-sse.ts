@@ -1,0 +1,1 @@
+'use client'; export type SSEHandler=(data:any)=>void; export function subscribeSSE(path:string,onData:SSEHandler){ const es=new EventSource(path); es.onmessage=(e)=>{ try{ onData(JSON.parse(e.data)); }catch{} }; return ()=>es.close(); }

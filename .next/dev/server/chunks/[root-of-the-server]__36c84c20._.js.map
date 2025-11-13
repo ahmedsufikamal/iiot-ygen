@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/sufi-mac-pro/Documents/2.%20Other%20Drive/0000.%20WebDesign/iiot-ygen/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server'; export const runtime='nodejs'; export const dynamic='force-dynamic'; export async function POST(){ const res=NextResponse.json({ok:true}); res.cookies.set({name:'demo_auth',value:'',path:'/',maxAge:0}); res.cookies.set({name:'tenant',value:'',path:'/',maxAge:0}); res.cookies.set({name:'role',value:'',path:'/',maxAge:0}); res.cookies.set({name:'email',value:'',path:'/',maxAge:0}); return res; }\n"],"names":[],"mappings":";;;;;;;;AAAA;;AAAmD,MAAM,UAAQ;AAAiB,MAAM,UAAQ;AAAwB,eAAe;IAAQ,MAAM,MAAI,gJAAY,CAAC,IAAI,CAAC;QAAC,IAAG;IAAI;IAAI,IAAI,OAAO,CAAC,GAAG,CAAC;QAAC,MAAK;QAAY,OAAM;QAAG,MAAK;QAAI,QAAO;IAAC;IAAI,IAAI,OAAO,CAAC,GAAG,CAAC;QAAC,MAAK;QAAS,OAAM;QAAG,MAAK;QAAI,QAAO;IAAC;IAAI,IAAI,OAAO,CAAC,GAAG,CAAC;QAAC,MAAK;QAAO,OAAM;QAAG,MAAK;QAAI,QAAO;IAAC;IAAI,IAAI,OAAO,CAAC,GAAG,CAAC;QAAC,MAAK;QAAQ,OAAM;QAAG,MAAK;QAAI,QAAO;IAAC;IAAI,OAAO;AAAK","debugId":null}}]
+}

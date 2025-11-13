@@ -1,0 +1,83 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_e36d360d._.js",
+        "server/edge/chunks/[root-of-the-server]__f2b15f93._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_501d1f63.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/dashboard/:path*{(\\\\.json)}?",
+          "originalSource": "/dashboard/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/devices/:path*{(\\\\.json)}?",
+          "originalSource": "/devices/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/equipment/:path*{(\\\\.json)}?",
+          "originalSource": "/equipment/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/sim/:path*{(\\\\.json)}?",
+          "originalSource": "/sim/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/assets/:path*{(\\\\.json)}?",
+          "originalSource": "/assets/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/connections/:path*{(\\\\.json)}?",
+          "originalSource": "/connections/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/explore/:path*{(\\\\.json)}?",
+          "originalSource": "/explore/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/administration/:path*{(\\\\.json)}?",
+          "originalSource": "/administration/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/tenants/:path*{(\\\\.json)}?",
+          "originalSource": "/tenants/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/alerting/:path*{(\\\\.json)}?",
+          "originalSource": "/alerting/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/reports/:path*{(\\\\.json)}?",
+          "originalSource": "/reports/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/settings/:path*{(\\\\.json)}?",
+          "originalSource": "/settings/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/login{(\\\\.json)}?",
+          "originalSource": "/login"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/t/:path*/login{(\\\\.json)}?",
+          "originalSource": "/t/:path*/login"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "W90r4/kmvHzOs6eTzC9I8bsZzSJP5j+PPhap4O0FJvM=",
+        "__NEXT_PREVIEW_MODE_ID": "88f4888ea3a9786bfe15ed1374216dcb",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8095a714772885a626526225d14a1f51ad43654c4053bfbfdddec6c9c6e9a4c4",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "a58b3a78d3bad5357f3357362d9646432ea3ad316c803d740263c955d37e1141"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
